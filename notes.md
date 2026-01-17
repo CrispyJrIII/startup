@@ -1,5 +1,8 @@
 # CS 260 Notes
 
+1/17/2026
+So far, I've set up my AWS account, created a github repository based on the provided template, and learned a bit about tying it into vsCode, making changes here and commiting them to Git.
+
 [My startup - Simon](https://simon.cs260.click)
 
 ## Helpful links

@@ -1,4 +1,4 @@
-# Your startup name here
+# Placeholder Name
 
 [My Notes](notes.md)
 
