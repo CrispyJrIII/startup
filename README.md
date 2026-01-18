@@ -29,15 +29,15 @@ This application supports the web player of a WIP Unity webGL creative tool, inc
 
 ### Design
 
-![Homepage](Images/Untitled_Artwork 2.png)
+![Homepage](Images/Homepage.png)
 
 The homepage for my website. Contains a direct link to the player page, a login feature that redirects to the profile page, and a download button that also links to the profile page. Also displays how many times the placeholder downlaod button on the profile page has been clicked.
 
-![Player page](Images/Untitled_Artwork.png)
+![Player page](Images/Play.png)
 
 The page containing the web player for my game. The profile and download buttons here both redirect to the profile page.
 
-![Profile page](Images/Untitled_Artwork 1.png)
+![Profile page](Images/Profile.png)
 
 ### Key features
 
