@@ -1,8 +1,8 @@
-# Placeholder Name
+# Discount Eden Demo
 
 [My Notes](notes.md)
 
-A brief description of the application here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project will essentially be a placeholder for a prototype, exhibiting the user interface I'd like to develop for a more long term project.
 
 > [!NOTE]
 > This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
@@ -17,45 +17,44 @@ A brief description of the application here. Lorem ipsum dolor sit amet, consect
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] Proper use of Markdown
+- [x] A concise and compelling elevator pitch
+- [x] Description of key features
+- [x] Description of how you will use each technology
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This application supports the web player of a WIP Unity webGL creative tool, incorporating placeholders of all of the UI functionality I want to offer to users when the game is complete. It should provide a set of placehodlers to support project persistence, account management, and optional downloads. The core game will likely be in development for some time, but this project should entail most of the web infrastructure required to support it.
 
 ### Design
 
-![Design image](placeholder.png)
+![Homepage](Images\Untitled_Artwork 2.png)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The homepage for my website. Contains a direct link to the player page, a login feature that redirects to the profile page, and a download button that also links to the profile page. Also displays how many times the placeholder downlaod button on the profile page has been clicked.
 
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
+![Player page](Images\Untitled_Artwork.png)
+
+The page containing the web player for my game. The profile and download buttons here both redirect to the profile page.
+
+![Profile page](Images\Untitled_Artwork 1.png)
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- A login page and support for saved user projects
+- A page containing the webgl player for my game
+- A profile page with access to a placeholder save and download feature.
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - This will be used for all the basic structuring of the website. Navigation links, form fields, ect...
+- **CSS** - This'll be used to make the website look and feel the way I want it to.
+- **React** - Used to develop the login page and personalized user profiles
+- **Service** - Used to let users access saved project data.
+- **DB/Login** - Used to store user saved content and keep it associated with specific users. Also keeps track of useful data like download statistics.
+- **WebSocket** - Used for a visible status display of how many times the game has been downloaded
 
 ## 🚀 AWS deliverable
 
