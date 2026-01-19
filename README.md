@@ -62,7 +62,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 I launched my instance using the provided template, tied it to an elasic IP, gave it a domain name, and secured it by editing the Caddy file.
 
-- [x] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
+- [x] **Server deployed and accessible with custom domain name** - [discounteden.click](https://discounteden.click).
 
 ## 🚀 HTML deliverable
 
