@@ -3,6 +3,13 @@
 1/17/2026
 So far, I've set up my AWS account, created a github repository based on the provided template, and learned a bit about tying it into vsCode, making changes here and commiting them to Git.
 
+1/19/2026
+I've finished the 1st delieverable, establishing at least a rough outline of the web program I want to make. I've also pretty much figured out the whole add/commit/push workflow.
+
+I've started work on actually setting up my aws stuff, launching my instance and tying it to the domain name "discounteden.click."
+
+discoutneden.click is secure, with the caddy files sucessfully updated via the terminal. I could just be blind, but the instructions didn't seem to mention pressing i to enter insert mode to allow editing of the file. That's what the internet told me to do, but I'm not entirely sure if its ideal.
+
 [My startup - Simon](https://simon.cs260.click)
 
 ## Helpful links
