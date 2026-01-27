@@ -12,6 +12,11 @@ discoutneden.click is secure, with the caddy files sucessfully updated via the t
 
 [My startup - Simon](https://simon.cs260.click)
 
+1/26/2026
+I just finished the HTML structure activity. I'll want to remember to use "a" to anchor text to a hyperlink.
+
+Also worked through parts of the other codepen activities. 
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
