@@ -73,7 +73,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Links** - I've got links on pretty much every page, including some technically redundant ones to help direct users.
 - [x] **Text** - I haven't got much, but there's a heading or two and some placeholder table data.
 - [x] **3rd party API placeholder** - I'm just gonna use a third party image to occupy my game space prior to the game's existence.
-- [ ] **Images** - I did not complete this part of the deliverable.
+- [x] **Images** - Added a fun little Planet image to my about page.
 - [x] **Login placeholder** - I've got a whole login/account page placeholder setup.
 - [x] **DB data placeholder** - User account data including placeholder save games will be stored this way.
 - [x] **WebSocket placeholder** - This will live update the total download counter.
