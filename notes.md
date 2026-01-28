@@ -17,6 +17,16 @@ I just finished the HTML structure activity. I'll want to remember to use "a" to
 
 Also worked through parts of the other codepen activities. 
 
+1/27/2026
+Simon html has been cloned to my dev environment. I've installed live server and used it to get a look at what the Simon html is doing. I've watched through the instructional video on deployment, but am honestly a little confused in that regard. I think I'll be able to follow it for my own startup, but I'm not entirely sure about what the Simon subdomain part of the instructions is talking about.
+
+For my own html, I'm kinda just copying a lot of the Simon code for the head. I've done some research on what it all actually does, and I get the impression that it's all pretty standard website stuff that's pretty much universally necessary. It does things like providing useful language information to search engines and ensuring the right kinds of characters appear on your webpage. I've definitely got to really figure out what I'm doing for the main section though.
+
+Scratch that, I've figured it out. I kinda had to wrestle with chatGPT a bit to figure out how to translate the class instructions to a Windows system, but we got there in the end. Typing simon.discounteden.click works.
+
+Deployment template: ./deployFiles.sh -k ~/keypair/production.pem -h discounteden.click -s simon
+Deployment plan: ./deployFiles.sh -k ~/keypair/production.pem -h discounteden.click -s startup
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
