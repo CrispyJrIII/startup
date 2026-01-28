@@ -68,15 +68,15 @@ I launched my instance using the provided template, tied it to an elasic IP, gav
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - Each of the html pages I had planned is blocked out.
+- [x] **Proper HTML element usage** - So far as I know, everything is formatted correctly.
+- [x] **Links** - I've got links on pretty much every page, including some technically redundant ones to help direct users.
+- [x] **Text** - I haven't got much, but there's a heading or two and some placeholder table data.
+- [x] **3rd party API placeholder** - I'm just gonna use a third party image to occupy my game space prior to the game's existence.
 - [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **Login placeholder** - I've got a whole login/account page placeholder setup.
+- [x] **DB data placeholder** - User account data including placeholder save games will be stored this way.
+- [x] **WebSocket placeholder** - This will live update the total download counter.
 
 ## 🚀 CSS deliverable
 
