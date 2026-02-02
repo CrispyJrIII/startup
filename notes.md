@@ -27,6 +27,23 @@ Scratch that, I've figured it out. I kinda had to wrestle with chatGPT a bit to 
 Deployment template: ./deployFiles.sh -k ~/keypair/production.pem -h discounteden.click -s simon
 Deployment plan: ./deployFiles.sh -k ~/keypair/production.pem -h discounteden.click -s startup
 
+2/2/2026
+Simon css has been successfully deployed. It was easier this time than last time, but I had to get a refresher on a few of the extra steps for Windows. I'm just going to note the process I ended up going through, and try to figure out how it actuyally works.
+
+cripsy@DESKTOP-G9E2UE1:/mnt/c/Users/Owner/OneDrive/Desktop/cs260/Simon/simon-css$ chmod +x deployFiles.sh
+cripsy@DESKTOP-G9E2UE1:/mnt/c/Users/Owner/OneDrive/Desktop/cs260/Simon/simon-css$ ./deployFiles.sh -k ~/keypair/production.pem -h discounteden.click -s simon
+-bash: ./deployFiles.sh: cannot execute: required file not found
+cripsy@DESKTOP-G9E2UE1:/mnt/c/Users/Owner/OneDrive/Desktop/cs260/Simon/simon-css$ head -n 1 deployFiles.sh
+#!/bin/bash
+cripsy@DESKTOP-G9E2UE1:/mnt/c/Users/Owner/OneDrive/Desktop/cs260/Simon/simon-css$ dos2unix deployFiles.sh
+dos2unix: converting file deployFiles.sh to Unix format...
+cripsy@DESKTOP-G9E2UE1:/mnt/c/Users/Owner/OneDrive/Desktop/cs260/Simon/simon-css$ ./deployFiles.sh -k ~/keypair/production.pem -h discounteden.click -s simon
+
+According to chat:
+- chmod +x deployFiles.sh makes the script executable.
+- head -n 1 deployFiles.sh checks the interpreter line, making fsure the script looks correct.
+- dos2unix deployFiles.sh removes Windows characters, allowing linux to run.
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
