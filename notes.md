@@ -44,6 +44,9 @@ According to chat:
 - head -n 1 deployFiles.sh checks the interpreter line, making fsure the script looks correct.
 - dos2unix deployFiles.sh removes Windows characters, allowing linux to run.
 
+2/3/2026
+I'm in the learning phase at the moment. I've pretty much just copied a bit of Simon css over to my own code just for thesake of learning what effect it has, and how to make it apply those effects properly. As I learn how it works, I'll adjust it to fit my vision for my website.
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
