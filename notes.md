@@ -47,6 +47,8 @@ According to chat:
 2/3/2026
 I'm in the learning phase at the moment. I've pretty much just copied a bit of Simon css over to my own code just for thesake of learning what effect it has, and how to make it apply those effects properly. As I learn how it works, I'll adjust it to fit my vision for my website.
 
+Starting to figure some things out for myself. There's lots of bootstrap classes to sort through, and all of those are referenced directly in html, not css. Specific color picking is easier in css than with bootstrap.
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
