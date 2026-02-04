@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 6em;
+    align-items: flex-start;
+}
+
+.account-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 3em;
+}
+
+.save-games {
+    width: 600px;
+    height: 600px;
+    overflow-y: auto;
+
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+
+    padding: 3em;
+}
+
+.save-table{
+    width: 100%;
+}

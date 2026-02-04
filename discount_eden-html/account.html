@@ -13,6 +13,7 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="/startup/discount_eden_css/main.css" />
+        <link rel="stylesheet" href="/startup/discount_eden_css/account.css" />
     </head>
     <body>
         <header class="container-fluid">
@@ -30,16 +31,8 @@
         </header>
 
         <main>
-            <div>
-                <a href="play.html">New Game</a>
-            </div>
-            <div>
-                <button>
-                    Download Game
-                </button>
-            </div>
-            <div>
-                <table>
+            <div class="save-games">
+                <table class="save-table">
                     <thead>
                         <tr>
                             <th>Saved Games</th>
@@ -57,6 +50,12 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+            <div class="account-buttons">
+                <a href="play.html" class="btn">New Game</a>
+                <button class="btn">
+                    Download Game
+                </button>
             </div>
         </main>
 

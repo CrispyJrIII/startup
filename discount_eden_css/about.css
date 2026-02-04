@@ -1,0 +1,19 @@
+
+.about{
+  width: min(720px, 92vw);
+  height: 660px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  
+
+  background-color: #9fbfcd;
+  
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+
+  gap: 1.5rem;
+  padding: 4em;
+}
