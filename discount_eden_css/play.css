@@ -16,8 +16,12 @@
 }
 
 main {
-    justify-content: flex-start;
-    padding-top: 4em;
-     gap: 1em;
+    justify-content: center;
+}
 
+.play-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
 }
