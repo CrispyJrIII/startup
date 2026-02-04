@@ -7,6 +7,7 @@ body {
 }
 
 header {
+    padding-top: 2em;
     background-color: #2f4858;
     color: #e6f0f5;
     flex: 0 80px;
@@ -21,21 +22,35 @@ main {
     justify-content: space-around;
 }
 
+.central-panel {
+  padding: 2em;
+  background-color: #9fbfcd;
+  width: min(520px);
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
 footer {
-  flex: 0 30px;
+    flex: 0 30px;
+    background-color: #2f4858;
+    color: #e6f0f5;
 }
 
 menu {
   flex: 1;
   display: flex;
-
   flex-direction: row !important;
   list-style: none;
-}
-
-.navbar-brand {
-  padding-left: 0.3em;
-  border-bottom: solid rgb(182, 182, 182) thin;
 }
 
 menu .nav-item {
