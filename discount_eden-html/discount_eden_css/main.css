@@ -24,7 +24,7 @@ main {
 
 .central-panel {
   width: min(520px, 92vw);
-  height: 360px;
+
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
@@ -39,6 +39,15 @@ main {
 
   gap: 1.25rem;
   padding: 2em;
+}
+
+.central-panel > * {
+  min-width: 0;
+}
+
+.central-panel input {
+  width: 92%;
+  max-width: 100%;
 }
 
 .icon-btn {
@@ -71,3 +80,6 @@ menu .nav-item {
   padding: 0 0.3em;
 }
 
+#site-title {
+  letter-spacing: 0.01em;
+}

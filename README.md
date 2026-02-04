@@ -82,12 +82,12 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Visually appealing colors and layout. No overflowing elements.** - I did not complete this part of the deliverable.
-- [ ] **Use of a CSS framework** - I did not complete this part of the deliverable.
-- [ ] **All visual elements styled using CSS** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing using flexbox and/or grid display** - I did not complete this part of the deliverable.
-- [ ] **Use of a imported font** - I did not complete this part of the deliverable.
-- [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did not complete this part of the deliverable.
+- [x] **Visually appealing colors and layout. No overflowing elements.** - I think it looks ppretty good, and nothing overflows as far as I know.
+- [x] **Use of a CSS framework** - Bootstrap used to help format several elements.
+- [x] **All visual elements styled using CSS** - Css layeded on top to get desired coloring and other customization elements.
+- [x] **Responsive to window resizing using flexbox and/or grid display** - Each page is at least reasonably responsive to window resizing
+- [x] **Use of a imported font** - Imported an "Inter" sans-serif font
+- [x] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I've got quite a few classes, and I use elements a couple of times. I made use of a pseudo selector to create the appearance of interactability on my saves table, and I set up the site title for use of an ID. I liked the way it looked as is though, so the only thing I really did with the ID was to ever so slightly adjust the letter spacing in the title just to prove that I could.
 
 ## 🚀 React part 1: Routing deliverable
 
