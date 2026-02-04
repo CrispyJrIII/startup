@@ -14,17 +14,25 @@ main {
 }
 
 .save-games {
-    width: 600px;
-    height: 600px;
+font-size: 1.5rem;
+
+    width: min(600px, 90vw);
+    height: min(600px, 70vw);
     overflow-y: auto;
 
     border: 2px solid rgba(255, 255, 255, 0.45);
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.18);
 
-    padding: 3em;
+    padding: 2em;
 }
 
-.save-table{
-    width: 100%;
+.save-table td {
+    padding: 1rem 1.2rem;
+    font-size: 1.1rem;
+}
+
+.save-table tbody tr:hover {
+    background-color: rgba(255,255,255,0.2);
+    cursor: pointer;
 }
