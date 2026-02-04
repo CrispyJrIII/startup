@@ -1,0 +1,23 @@
+.game-space {
+    width: min(520px, 92vw);
+    height: 520px;
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+
+    gap: 1.25rem;
+    padding: 2em;
+}
+
+.play-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+main {
+    justify-content: flex-start;
+    padding-top: 4em;
+     gap: 1em;
+
+}

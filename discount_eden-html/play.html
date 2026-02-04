@@ -13,35 +13,32 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="/startup/discount_eden_css/main.css" />
+        <link rel="stylesheet" href="/startup/discount_eden_css/play.css" />
     </head>
     <body>
-        <header>
-            <h1>Discount Eden Demo<sup>&reg;</sup></h1>
+        <header class="container-fluid">
+            <h1 class="h1">Discount Eden Demo<sup>&reg;</sup></h1>
 
-            <nav>
-                <menu>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="play.html">Play</a></li>
-                    <li><a href="account.html">Account</a></li>
-                    <li><a href="about.html">About</a></li>
+            <nav class="navbar navbar-dark"></nav>
+                <menu class="navbar-nav">
+                    <li class = "nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class = "nav-item"><a class="nav-link"href="play.html">Play</a></li>
+                    <li class = "nav-item"><a class="nav-link"href="account.html">Account</a></li>
+                    <li class = "nav-item"><a class="nav-link"href="about.html">About</a></li>
                 </menu>
             </nav>
             <hr />
         </header>
         <main>
-            <div class="game_space">
-                <p>Placeholder Game Space. Will be represented by a 3rd party API image</p>
-            </div>
-            <div>
-                <a href="account.html" class="btn">Account</a> <!-- Most of my download buttons are kinda redundant, but I just want to effectively communicate that download is "possible" -->
-            </div>
-            <div>
-                <a href="account.html" class="btn">Download</a>
-            </div>    
-            <div>    
-                <button>
-                    Save Game
-                </button>
+            <div class="play-main">
+                <div class="game-space">
+                    <p>Placeholder Game Space. Will be represented by a 3rd party API image</p>
+                </div>
+                <div class="play-buttons">
+                    <a href="account.html" class="btn">Account</a>
+                    <a href="account.html" class="btn">Download</a>
+                    <button class="btn">Save Game</button>
+                </div>
             </div>
         </main>
 
