@@ -51,6 +51,20 @@ Starting to figure some things out for myself. There's lots of bootstrap classes
 
 2/13/2026
 I believe I've successfully got the Simon react working.
+
+## Deployment Instruction:
+chmod +x deployReact.sh
+./deployReact.sh -k ~/keys/production.pem -h discounteden.click -s startup
+
+Remember to save before deployment
+
+## Github commits:
+git add .
+git commit -m "message"
+git push
+
+git status - checks status
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
