@@ -49,6 +49,8 @@ I'm in the learning phase at the moment. I've pretty much just copied a bit of S
 
 Starting to figure some things out for myself. There's lots of bootstrap classes to sort through, and all of those are referenced directly in html, not css. Specific color picking is easier in css than with bootstrap.
 
+2/13/2026
+I believe I've successfully got the Simon react working.
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
