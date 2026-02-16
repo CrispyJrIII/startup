@@ -1,9 +1,10 @@
 import React from 'react';
 import './account.css';
+import { NavLink } from 'react-router-dom';
 
 export function Account() {
   return (
-    <main className="container-fluid bg-secondary text-center">
+    <main className="container-fluid text-center">
             <div className="save-games">
                 <table className="save-table">
                     <thead>
@@ -25,7 +26,9 @@ export function Account() {
                 </table>
             </div>
             <div className="account-buttons">
-                <a href="play.html" class="btn">New Game</a>
+                    <NavLink to="/play" className="btn">
+                        New Game
+                    </NavLink>
                 <button className="btn">
                     Download Game
                 </button>

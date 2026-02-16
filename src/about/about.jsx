@@ -3,7 +3,7 @@ import './about.css';
 
 export function About() {
   return (
-    <main className="container-fluid bg-secondary text-center">
+    <main className="container-fluid text-center">
             <div className="about">
                 <div id="picture-box">
                     <img src="/DiscountEdenPic.jpg" alt="Pretty Planet" className="planet-image"/>
