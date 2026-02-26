@@ -95,6 +95,15 @@ Added these counting functions to accounts.jsx:
     }
 This should allow me to locally store a download count based upon how many times the download button is clicked, which I can pull in and display elseware. Will be pulled from a server later on.
 
+
+  const [downloadCount, setDownloadCount] = React.useState(0);
+
+    React.useEffect(() => {
+    const saved = parseInt(localStorage.getItem('downloadCount')) ?? '0';
+    setDownloadCount(saved);
+    }, []);
+This is the login.jsx side fo things. Just using localStorage.getItem('downloadCount') for my # of times downloaded might work fine for the most part, but using react allows for live updates as the value changes.
+
 ```jsx
 <div className="input-group sound-button-container">
   {calmSoundTypes.map((sound, index) => (

@@ -2,6 +2,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 export function Login() {
+    const [downloadCount, setDownloadCount] = React.useState(0);
+
+    React.useEffect(() => {
+    const saved = parseInt(localStorage.getItem('downloadCount')) ?? '0';
+    setDownloadCount(saved);
+    }, []);
+
   return (
         <main className="container-fluid text-center">
             <div className="central-panel">

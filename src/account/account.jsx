@@ -2,6 +2,10 @@ import React from 'react';
 import './account.css';
 import { NavLink } from 'react-router-dom';
 
+
+
+
+export function Account() {
     const [downloadCount, setDownloadCount] = React.useState(parseInt(localStorage.getItem('downloadCount')) || 0);
 
     function countClick() {
@@ -9,9 +13,7 @@ import { NavLink } from 'react-router-dom';
         setDownloadCount(newCount);
         localStorage.setItem('downloadCount', newCount)
     }
-
-
-export function Account() {
+    
   return (
     <main className="container-fluid text-center">
             <div className="save-games">
