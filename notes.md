@@ -85,6 +85,16 @@ I'm still a little hazy in what it's all for, but it works.
 
 Simon react part 2 has been successfully deployed. I'll start experimenting with how it works and figuring out what to use in my own application.
 
+Added these counting functions to accounts.jsx:
+    const [downloadCount, setDownloadCount] = React.useState(parseInt(localStorage.getItem('downloadCount')) || 0);
+
+    function countClick() {
+        const newCount = downloadCount + 1;
+        setDownloadCount(newCount);
+        localStorage.setItem('downloadCount', newCount)
+    }
+This should allow me to locally store a download count based upon how many times the download button is clicked, which I can pull in and display elseware. Will be pulled from a server later on.
+
 ```jsx
 <div className="input-group sound-button-container">
   {calmSoundTypes.map((sound, index) => (

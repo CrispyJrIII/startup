@@ -2,6 +2,15 @@ import React from 'react';
 import './account.css';
 import { NavLink } from 'react-router-dom';
 
+    const [downloadCount, setDownloadCount] = React.useState(parseInt(localStorage.getItem('downloadCount')) || 0);
+
+    function countClick() {
+        const newCount = downloadCount + 1;
+        setDownloadCount(newCount);
+        localStorage.setItem('downloadCount', newCount)
+    }
+
+
 export function Account() {
   return (
     <main className="container-fluid text-center">
@@ -29,7 +38,7 @@ export function Account() {
                     <NavLink to="/play" className="btn">
                         New Game
                     </NavLink>
-                <button className="btn">
+                <button className="btn" onClick={countClick}>
                     Download Game
                 </button>
             </div>

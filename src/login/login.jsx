@@ -27,7 +27,7 @@ export function Login() {
 
                 </div>
                 <div className="panel-section-stats">
-                    <p># times downloaded</p>
+                    <p>{downloadCount} times downloaded</p>
                 </div>
             </div>
             

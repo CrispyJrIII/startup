@@ -9,6 +9,7 @@ import { Account } from './account/account';
 import { About } from './about/about';
 
 export default function App() {
+  
   return (
     <BrowserRouter>
       <div className="body bg-dark text-light">
