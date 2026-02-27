@@ -7,6 +7,9 @@ import { NavLink } from 'react-router-dom';
 
 export function Account() {
     const [saves, setSaves] = React.useState([]);
+    const [downloadCount, setDownloadCount] = React.useState(
+    parseInt(localStorage.getItem('downloadCount') ?? '0', 10)
+    );
 
     React.useEffect(() => {
     const text = localStorage.getItem('saves');
@@ -14,7 +17,13 @@ export function Account() {
         setSaves(JSON.parse(text));
     }
     }, []);
-    
+
+    function countClick() {
+        const newCount = downloadCount + 1;
+        setDownloadCount(newCount);
+        localStorage.setItem('downloadCount', String(newCount));
+    }
+
   return (
     <main className="container-fluid text-center">
             <div className="save-games">
