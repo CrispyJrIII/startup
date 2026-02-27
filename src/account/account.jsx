@@ -6,13 +6,14 @@ import { NavLink } from 'react-router-dom';
 
 
 export function Account() {
-    const [downloadCount, setDownloadCount] = React.useState(parseInt(localStorage.getItem('downloadCount')) || 0);
+    const [saves, setSaves] = React.useState([]);
 
-    function countClick() {
-        const newCount = downloadCount + 1;
-        setDownloadCount(newCount);
-        localStorage.setItem('downloadCount', newCount)
+    React.useEffect(() => {
+    const text = localStorage.getItem('saves');
+    if (text) {
+        setSaves(JSON.parse(text));
     }
+    }, []);
     
   return (
     <main className="container-fluid text-center">
@@ -24,15 +25,11 @@ export function Account() {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>Save 1</td>
+                    {saves.map((save, index) => (
+                        <tr key={index}>
+                        <td>{save}</td>
                         </tr>
-                        <tr>
-                            <td>Save 2</td>
-                        </tr>
-                        <tr>
-                            <td>Save 3</td>
-                        </tr>
+                    ))}
                     </tbody>
                 </table>
             </div>
