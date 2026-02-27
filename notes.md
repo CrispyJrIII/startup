@@ -104,6 +104,8 @@ This should allow me to locally store a download count based upon how many times
     }, []);
 This is the login.jsx side fo things. Just using localStorage.getItem('downloadCount') for my # of times downloaded might work fine for the most part, but using react allows for live updates as the value changes.
 
+I just added some basic login functionality. The create, login, and download buttons on my login page all do the same thing for now. Each navigates to the account page if a username and password are provided.
+
 ```jsx
 <div className="input-group sound-button-container">
   {calmSoundTypes.map((sound, index) => (

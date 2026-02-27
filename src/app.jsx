@@ -9,6 +9,7 @@ import { Account } from './account/account';
 import { About } from './about/about';
 
 export default function App() {
+    const [Username, setUsername] = React.useState(localStorage.getItem('Username') || null);
   
   return (
     <BrowserRouter>
@@ -31,9 +32,9 @@ export default function App() {
                     </NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/account">
+                {Username && <NavLink className="nav-link" to="/account">
                         Account
-                    </NavLink>
+                    </NavLink>}
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/about">
@@ -48,9 +49,9 @@ export default function App() {
 
         
         <Routes>
-            <Route path='/' element={<Login />} exact />
+            <Route path='/' element={<Login onAuth={(name) => setUsername(name)} />} exact />
             <Route path='/play' element={<Play />} />
-            <Route path='/account' element={<Account />} />
+            <Route path="/account" element={Username ? <Account /> : <Login onAuth={(name) => setUsername(name)} />} />
             <Route path='/about' element={<About />} />
             <Route path='*' element={<NotFound />} />
         </Routes>
