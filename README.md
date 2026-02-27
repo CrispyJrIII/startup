@@ -101,8 +101,8 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **All functionality implemented or mocked out** - I did not complete this part of the deliverable.
-- [ ] **Hooks** - I did not complete this part of the deliverable.
+- [x] **All functionality implemented or mocked out** - I've now got roughly working login buttons, a dynamic save game table, and a download counter.
+- [x] **Hooks** - I've used useState to store dynamic values and useEffect to load them when states change. Added java script to remove access to the accounts page prior to login or account creation.
 
 ## 🚀 Service deliverable
 
